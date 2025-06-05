@@ -1,0 +1,61 @@
+# IDE working files
+*.iws
+*.ipr
+*.iml
+.idea/
+.settings
+.project
+.classpath
+
+# Build directories
+target
+out
+
+acceptance-tests/test-output/*
+acceptance-tests/test-output/Spark/*
+
+integration-tests/test-output/*
+
+# Build and test files
+*.log
+*.lck
+
+# Drawio
+*.dtmp
+*.bkp
+cinnamon_diagram.drawio.dtmp
+
+# Gradle
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+acceptance-tests/test-output/**
+acceptance-tests/node_modules/**
+acceptance-tests/target/**
+acceptance-tests/package.json
+acceptance-tests/package-lock.json
